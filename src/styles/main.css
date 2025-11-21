@@ -1,0 +1,89 @@
+@import './variables.css';
+@import './reset.css';
+@import './components.css';
+@import './home.css';
+@import './menu.css';
+
+/* Global Utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.section-padding {
+    padding: var(--spacing-huge) 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gold {
+    color: var(--color-gold);
+}
+
+.text-charcoal {
+    color: var(--color-charcoal);
+}
+
+.bg-charcoal {
+    background-color: var(--color-charcoal);
+}
+
+.bg-cream {
+    background-color: var(--color-cream);
+}
+
+/* Typography Utilities */
+.h1 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+@media (min-width: 1024px) {
+    .h1 {
+        font-size: 80px;
+    }
+}
+
+.h2 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+    .h2 {
+        font-size: 56px;
+    }
+}
+
+.h3 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+@media (min-width: 1024px) {
+    .h3 {
+        font-size: 32px;
+    }
+}
+
+.gold-underline {
+    display: block;
+    height: 4px;
+    background-color: var(--color-gold);
+    margin-top: var(--spacing-md);
+}
+
+.gold-underline.center {
+    margin-left: auto;
+    margin-right: auto;
+}

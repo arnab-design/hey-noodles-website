@@ -1,0 +1,36 @@
+:root {
+  /* Brand Colors */
+  --color-gold: #FCB900;
+  --color-charcoal: #1A1A1A;
+  --color-white: #FFFFFF;
+  --color-red: #D32F2F;
+  --color-cream: #FFF8E7;
+  --color-green: #4CAF50;
+  --color-text-gray: #424242;
+  --color-border-gray: #E0E0E0;
+
+  /* Typography */
+  --font-heading: 'Inter', 'Lexend', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-chinese: 'Noto Sans SC', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-xxl: 64px;
+  --spacing-huge: 80px;
+  --spacing-massive: 120px;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.15);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.08);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
+
+  /* Transitions */
+  --transition-fast: 200ms ease;
+  --transition-normal: 300ms ease-out;
+  --transition-slow: 600ms ease;
+}
