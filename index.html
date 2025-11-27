@@ -21,9 +21,9 @@
     <div class="nav-links">
       <a href="./" class="nav-link active">Home</a>
       <a href="./menu.html" class="nav-link">Menu</a>
-      <a href="#" class="nav-link">About</a>
-      <a href="#" class="nav-link">Locations</a>
-      <a href="#" class="nav-link">Contact</a>
+      <a href="./about.html" class="nav-link">About</a>
+      <a href="./locations.html" class="nav-link">Locations</a>
+      <a href="./contact.html" class="nav-link">Contact</a>
     </div>
     <a href="#" class="btn btn-primary nav-cta">Order Online</a>
     <div class="mobile-menu-toggle">☰</div>
@@ -40,7 +40,7 @@
     <div class="hero-content">
       <span class="hero-eyebrow">Chongqing Soul Food</span>
       <h1 class="h1 text-charcoal">Hey Noodles</h1>
-      <div class="hero-location">📍 Toronto Location</div>
+      <div class="hero-location">📍 Multiple Locations across GTA</div>
       <p class="hero-tagline">The most authentic bowl of Xiăo Miàn in Canada. Your next best option? A flight to China.
       </p>
       <div class="hero-cta-group">
@@ -79,27 +79,64 @@
     </div>
   </section>
 
-  <!-- Location & Hours -->
-  <section class="location-section">
-    <div class="location-map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.434446704786!2d-79.38705668450203!3d43.66096497912103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b5f5f5f5f5%3A0x5f5f5f5f5f5f5f5f!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1634567890123!5m2!1sen!2sca"
-        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div class="location-details">
-      <h2 class="h1 text-charcoal">Visit Us</h2>
-      <div class="gold-underline" style="width: 80px;"></div>
-      <p style="font-size: 20px; margin-top: 32px;">478 Dundas St W,<br>Toronto, ON M5T 1G9</p>
-      <a href="tel:+14165550123"
-        style="display: block; font-size: 20px; color: var(--color-gold); margin-top: 16px; font-weight: 700;">(416)
-        555-0123</a>
-
-      <div style="margin-top: 32px;">
-        <h3 class="h3 text-charcoal" style="margin-bottom: 16px;">Hours</h3>
-        <p style="font-size: 18px; margin-bottom: 8px;">Monday - Sunday: 11am - 9:30pm</p>
+  <!-- Locations List Section (Replaces previous Location & Hours) -->
+  <section class="section-padding bg-cream">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 48px;">
+        <h2 class="h1 text-charcoal">Our Locations</h2>
+        <div class="gold-underline center" style="width: 100px;"></div>
+        <p style="font-size: 20px; margin-top: 24px; color: var(--color-text-gray);">Authentic Chongqing street noodles crafted with bold flavors and fresh ingredients.</p>
       </div>
 
-      <a href="#" class="btn btn-primary" style="margin-top: 48px; height: 48px; padding: 0 32px;">Get Directions</a>
+      <div class="locations-grid" style="display: grid; gap: 32px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+        <!-- Location 1 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">Chinatown</h3>
+          <p style="margin-top: 12px;">478 Dundas St. West</p>
+          <p><a href="tel:6473528999">(647) 352-8999</a></p>
+        </div>
+        <!-- Location 2 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">Markham</h3>
+          <p style="margin-top: 12px;">5460 Highway 7 East</p>
+          <p><a href="tel:9052098666">(905) 209-8666</a></p>
+        </div>
+        <!-- Location 3 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">Markham – First Markham Place</h3>
+          <p style="margin-top: 12px;">3235 Highway 7 East</p>
+          <p><a href="tel:6477375855">(647) 737-5855</a></p>
+        </div>
+        <!-- Location 4 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">Mississauga</h3>
+          <p style="margin-top: 12px;">900 Rathburn Rd. West</p>
+          <p><a href="tel:9052766777">(905) 276-6777</a></p>
+        </div>
+        <!-- Location 5 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">North York</h3>
+          <p style="margin-top: 12px;">25 Spring Garden Ave.</p>
+          <p><a href="tel:4162223666">(416) 222-3666</a></p>
+        </div>
+        <!-- Location 6 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">Scarborough</h3>
+          <p style="margin-top: 12px;">3700 Midland Ave.</p>
+          <p><a href="tel:6473525333">(647) 352-5333</a></p>
+        </div>
+        <!-- Location 7 -->
+        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+          <h3 class="h3 text-charcoal">Vaughan</h3>
+          <p style="margin-top: 12px;">3175 Rutherford Rd.</p>
+          <p><a href="tel:9057611188">(905) 761-1188</a></p>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 48px;">
+         <a href="./locations.html" class="btn btn-primary" style="margin-right: 16px;">Visit Locations</a>
+         <a href="./about.html" class="btn btn-outline">Learn More</a>
+      </div>
     </div>
   </section>
 
@@ -146,36 +183,21 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <h4>Visit Us</h4>
-          <p>478 Dundas St W,<br>Toronto, ON M5T 1G9</p>
-          <a href="tel:+14165550123" style="display: block; color: var(--color-gold); margin-top: 12px;">(416)
-            555-0123</a>
-          <a href="mailto:hello@heynoodles.com"
-            style="display: block; color: var(--color-gold); margin-top: 8px;">hello@heynoodles.com</a>
+          <h4>Contact Us</h4>
+          <p><a href="mailto:info@heynoodles.com" style="color: white;">info@heynoodles.com</a></p>
+          <p style="margin-top: 8px;"><a href="tel:6476767006" style="color: white;">(647) 676-7006</a></p>
         </div>
         <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="./">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Order Online</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Stay in the Loop</h4>
-          <div style="display: flex; margin-top: 24px;">
-            <input type="email" placeholder="Your email" style="height: 48px; padding: 0 16px; border: none; flex: 1;">
-            <button class="btn btn-primary" style="height: 48px; padding: 0 24px;">Subscribe</button>
+          <h4>Follow us on Social Media!</h4>
+          <div style="display: flex; gap: 16px; margin-top: 16px;">
+            <a href="#" style="color: white; font-size: 24px;">Instagram</a>
+            <a href="#" style="color: white; font-size: 24px;">Facebook</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <div>© 2024 Hey Noodles. All rights reserved.</div>
-        <div>
-          <a href="#" style="margin-right: 24px;">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-        </div>
+        <div>Copyright © 2025 Hey Noodles – Chongqing Street Food</div>
+        <div style="margin-top: 8px;">Photography credit: Photography by James Ton</div>
       </div>
     </div>
   </footer>
