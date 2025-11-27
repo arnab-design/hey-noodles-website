@@ -13,6 +13,7 @@
 
 .section-padding {
     padding: var(--spacing-huge) 0;
+    scroll-margin-top: 100px;
 }
 
 .text-center {
