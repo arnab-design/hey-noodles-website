@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend:wght@700&family=Noto+Sans+SC:wght@400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lexend:wght@700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./src/styles/main.css">
 </head>
@@ -31,150 +31,115 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-image">
-      <!-- Placeholder for Hero Image -->
-      <img
-        src="https://images.unsplash.com/photo-1552611052-33e04de081de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80"
-        alt="Steaming Xiao Mian">
+    <div class="hero-carousel">
+      <!-- Slide 1 -->
+      <div class="carousel-slide active">
+        <img src="https://images.unsplash.com/photo-1552611052-33e04de081de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Signature Noodles">
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-slide">
+        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Spicy Wontons">
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-slide">
+        <img src="https://images.unsplash.com/photo-1626804475297-411d863b5285?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Dan Dan Noodles">
+      </div>
     </div>
+    
     <div class="hero-content">
-      <span class="hero-eyebrow">Chongqing Soul Food</span>
-      <h1 class="h1 text-charcoal">Hey Noodles</h1>
-      <div class="hero-location">📍 Multiple Locations across GTA</div>
-      <p class="hero-tagline">The most authentic bowl of Xiăo Miàn in Canada. Your next best option? A flight to China.
-      </p>
+      <span class="hero-eyebrow">Authentic Chongqing Street Food</span>
+      <h1 class="hero-title">Taste the Soul of Chongqing</h1>
+      <p class="hero-tagline">Hand-pulled noodles, numbingly spicy broths, and bold flavors that transport you straight to the streets of China.</p>
       <div class="hero-cta-group">
-        <a href="./menu.html" class="btn btn-primary hero-btn">View Menu</a>
-        <a href="#" class="btn btn-outline hero-btn">Order Now</a>
+        <a href="#" class="btn btn-primary hero-btn">Order Now</a>
+        <a href="./menu.html" class="btn btn-outline-white hero-btn">View Menu</a>
       </div>
     </div>
   </section>
 
-  <!-- What Makes Us Special -->
-  <section class="section-padding">
+  <!-- Category Tiles -->
+  <section class="category-section">
     <div class="container">
-      <div class="text-center">
-        <h2 class="h2 text-charcoal">What Makes Our Noodles Special</h2>
+      <div class="text-center fade-in">
+        <h2 class="h2 text-charcoal">Explore Our Menu</h2>
+        <div class="gold-underline center" style="width: 100px;"></div>
+        <p style="margin-top: 16px; color: var(--color-text-gray);">Discover our wide range of authentic dishes</p>
+      </div>
+
+      <div class="category-grid" style="margin-top: 48px;">
+        <a href="./menu.html#signature" class="category-tile fade-in">
+          <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Signature Noodles" class="category-bg">
+          <div class="category-overlay"></div>
+          <span class="category-label">Signature Noodles</span>
+        </a>
+        <a href="./menu.html#appetizers" class="category-tile fade-in">
+          <img src="https://images.unsplash.com/photo-1606850780554-b55eaefa84fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Appetizers" class="category-bg">
+          <div class="category-overlay"></div>
+          <span class="category-label">Appetizers</span>
+        </a>
+        <a href="./menu.html#create-own" class="category-tile fade-in">
+          <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Build Your Own" class="category-bg">
+          <div class="category-overlay"></div>
+          <span class="category-label">Build Your Own</span>
+        </a>
+        <a href="./menu.html#drinks" class="category-tile fade-in">
+          <img src="https://images.unsplash.com/photo-1543253687-c931c8e01820?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Drinks" class="category-bg">
+          <div class="category-overlay"></div>
+          <span class="category-label">Drinks</span>
+        </a>
+        <a href="./menu.html#new" class="category-tile fade-in">
+          <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="New Items" class="category-bg">
+          <div class="category-overlay"></div>
+          <span class="category-label">New Items</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured/About Preview -->
+  <section class="featured-section">
+    <div class="container">
+      <div class="text-center fade-in">
+        <h2 class="h2 text-charcoal">Why Hey Noodles?</h2>
         <div class="gold-underline center" style="width: 100px;"></div>
       </div>
-      <div class="features-grid">
-        <div class="feature-item">
-          <div class="feature-icon">🍜</div>
-          <h3 class="h3 text-charcoal">Hand-Pulled Daily</h3>
-          <p class="text-charcoal" style="margin-top: 16px;">Premium ingredients and traditional methods ensure
-            authentic texture</p>
+      
+      <div class="featured-grid">
+        <div class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hand Pulled" class="card-img">
+          <div class="card-content">
+            <h3 class="card-title">Hand-Pulled Daily</h3>
+            <p class="card-desc">We craft our noodles fresh every single day using traditional techniques for the perfect chew and texture.</p>
+            <a href="./about.html" class="btn btn-outline" style="align-self: start; padding: 0 24px; height: 40px; font-size: 14px;">Learn More</a>
+          </div>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">🍲</div>
-          <h3 class="h3 text-charcoal">Bold Flavors</h3>
-          <p class="text-charcoal" style="margin-top: 16px;">Our cooking process unlocks rich, complex tastes in every
-            bowl</p>
+        <div class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Authentic Broth" class="card-img">
+          <div class="card-content">
+            <h3 class="card-title">14+ Herbs & Spices</h3>
+            <p class="card-desc">Our secret broth recipe simmers for hours with a complex blend of medicinal herbs and bold Sichuan spices.</p>
+            <a href="./about.html" class="btn btn-outline" style="align-self: start; padding: 0 24px; height: 40px; font-size: 14px;">Learn More</a>
+          </div>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">🥣</div>
-          <h3 class="h3 text-charcoal">Quality & Quantity</h3>
-          <p class="text-charcoal" style="margin-top: 16px;">Generous portions without compromising on authenticity</p>
+        <div class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1582878826618-c053af6dc971?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fresh Ingredients" class="card-img">
+          <div class="card-content">
+            <h3 class="card-title">Fresh Ingredients</h3>
+            <p class="card-desc">From locally sourced vegetables to premium cuts of meat, quality is at the heart of every bowl.</p>
+            <a href="./about.html" class="btn btn-outline" style="align-self: start; padding: 0 24px; height: 40px; font-size: 14px;">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Locations List Section (Replaces previous Location & Hours) -->
-  <section class="section-padding bg-cream">
-    <div class="container">
-      <div class="text-center" style="margin-bottom: 48px;">
-        <h2 class="h1 text-charcoal">Our Locations</h2>
-        <div class="gold-underline center" style="width: 100px;"></div>
-        <p style="font-size: 20px; margin-top: 24px; color: var(--color-text-gray);">Authentic Chongqing street noodles crafted with bold flavors and fresh ingredients.</p>
-      </div>
-
-      <div class="locations-grid" style="display: grid; gap: 32px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-        <!-- Location 1 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">Chinatown</h3>
-          <p style="margin-top: 12px;">478 Dundas St. West</p>
-          <p><a href="tel:6473528999">(647) 352-8999</a></p>
-        </div>
-        <!-- Location 2 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">Markham</h3>
-          <p style="margin-top: 12px;">5460 Highway 7 East</p>
-          <p><a href="tel:9052098666">(905) 209-8666</a></p>
-        </div>
-        <!-- Location 3 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">Markham – First Markham Place</h3>
-          <p style="margin-top: 12px;">3235 Highway 7 East</p>
-          <p><a href="tel:6477375855">(647) 737-5855</a></p>
-        </div>
-        <!-- Location 4 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">Mississauga</h3>
-          <p style="margin-top: 12px;">900 Rathburn Rd. West</p>
-          <p><a href="tel:9052766777">(905) 276-6777</a></p>
-        </div>
-        <!-- Location 5 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">North York</h3>
-          <p style="margin-top: 12px;">25 Spring Garden Ave.</p>
-          <p><a href="tel:4162223666">(416) 222-3666</a></p>
-        </div>
-        <!-- Location 6 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">Scarborough</h3>
-          <p style="margin-top: 12px;">3700 Midland Ave.</p>
-          <p><a href="tel:6473525333">(647) 352-5333</a></p>
-        </div>
-        <!-- Location 7 -->
-        <div class="location-card" style="background: white; padding: 24px; border-radius: 8px; box-shadow: var(--shadow-sm);">
-          <h3 class="h3 text-charcoal">Vaughan</h3>
-          <p style="margin-top: 12px;">3175 Rutherford Rd.</p>
-          <p><a href="tel:9057611188">(905) 761-1188</a></p>
-        </div>
-      </div>
-
-      <div class="text-center" style="margin-top: 48px;">
-         <a href="./locations.html" class="btn btn-primary" style="margin-right: 16px;">Visit Locations</a>
-         <a href="./about.html" class="btn btn-outline">Learn More</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Social Proof -->
-  <section class="section-padding">
+  <!-- Locations Preview -->
+  <section class="home-locations fade-in">
     <div class="container text-center">
-      <h2 class="h1 text-charcoal">Follow Our Journey</h2>
+      <h2 class="h2 text-charcoal">Find Us Across the GTA</h2>
       <div class="gold-underline center" style="width: 100px;"></div>
-      <div class="social-grid">
-        <img
-          src="https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-          class="social-img" alt="Social 1">
-        <img
-          src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-          class="social-img" alt="Social 2">
-        <img
-          src="https://images.unsplash.com/photo-1555126634-323283e090fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-          class="social-img" alt="Social 3">
-        <img
-          src="https://images.unsplash.com/photo-1617622141675-d22c4f3084b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-          class="social-img" alt="Social 4">
-      </div>
-      <a href="#"
-        style="display: block; margin-top: 24px; color: var(--color-gold); font-size: 20px; font-weight: 700;">@heynoodles</a>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="cta-section">
-    <div class="container">
-      <h2 class="h1 text-white">Ready to Experience Authentic Chongqing?</h2>
-      <p
-        style="font-size: 20px; color: #ccc; margin-top: 24px; max-width: 600px; margin-left: auto; margin-right: auto;">
-        Explore our full menu of hand-pulled noodles, dumplings, and Sichuan specialties</p>
-      <div style="margin-top: 48px; display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;">
-        <a href="./menu.html" class="btn btn-primary" style="height: 56px; padding: 0 48px;">View Full Menu</a>
-        <a href="#" class="btn btn-outline-white" style="height: 56px; padding: 0 48px;">Order for Pickup</a>
-      </div>
+      <p style="margin: 24px 0 40px; font-size: 18px; color: var(--color-text-gray);">Serving you at 7 convenient locations</p>
+      <a href="./locations.html" class="btn btn-primary" style="height: 56px; padding: 0 48px; font-size: 18px;">View All Locations</a>
     </div>
   </section>
 
@@ -182,22 +147,58 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
+        <!-- Brand Column -->
         <div class="footer-col">
-          <h4>Contact Us</h4>
-          <p><a href="mailto:info@heynoodles.com" style="color: white;">info@heynoodles.com</a></p>
-          <p style="margin-top: 8px;"><a href="tel:6476767006" style="color: white;">(647) 676-7006</a></p>
-        </div>
-        <div class="footer-col">
-          <h4>Follow us on Social Media!</h4>
-          <div style="display: flex; gap: 16px; margin-top: 16px;">
-            <a href="#" style="color: white; font-size: 24px;">Instagram</a>
-            <a href="#" style="color: white; font-size: 24px;">Facebook</a>
+          <a href="./" class="nav-logo" style="display: block; margin-bottom: 24px;">HEY NOODLES</a>
+          <p style="color: #ccc; line-height: 1.6; margin-bottom: 24px;">
+            Authentic Chongqing street food brought to Canada. Experience the bold flavors, numbing spice, and hand-crafted excellence in every bowl.
+          </p>
+          <div style="display: flex; gap: 16px;">
+            <a href="#" style="color: white; font-size: 20px;">Instagram</a>
+            <a href="#" style="color: white; font-size: 20px;">Facebook</a>
           </div>
         </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="./">Home</a></li>
+            <li><a href="./menu.html">Our Menu</a></li>
+            <li><a href="./locations.html">Locations</a></li>
+            <li><a href="./about.html">Our Story</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:info@heynoodles.com">info@heynoodles.com</a></li>
+            <li><a href="tel:6476767006">(647) 676-7006</a></li>
+            <li style="margin-top: 16px; color: #888;">Franchise Inquiries:</li>
+            <li><a href="mailto:kevin.liu@superfinegroup.ca">kevin.liu@superfinegroup.ca</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <p style="color: #ccc; font-size: 14px;">Subscribe for new menu items and exclusive offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input">
+            <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+          </form>
+        </div>
       </div>
+
       <div class="footer-bottom">
-        <div>Copyright © 2025 Hey Noodles – Chongqing Street Food</div>
-        <div style="margin-top: 8px;">Photography credit: Photography by James Ton</div>
+        <div>© 2025 Hey Noodles. All rights reserved.</div>
+        <div>
+          <a href="#" style="margin-right: 24px; color: #888;">Privacy Policy</a>
+          <a href="#" style="color: #888;">Terms of Service</a>
+        </div>
       </div>
     </div>
   </footer>
